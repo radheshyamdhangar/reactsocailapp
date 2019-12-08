@@ -22,7 +22,7 @@ const Header = (props)=>{
     return (
          <nav>
             <div className="nav-wrapper deep-purple darken-2">
-            <Link to={props.user ? '/profile' : '/'} className="brand-logo">CNQ</Link>
+            <Link to={props.user ? '/profile' : '/'} className="brand-logo">SocialLoginApp</Link>
             <ul id="nav-mobile" className="right">
                {rederContect()}
             </ul>
